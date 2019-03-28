@@ -1,5 +1,12 @@
-<?php get_header(); ?>
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
 
-Totally minimal
+    <a href="<?=get_template_directory_uri() . '/wp-json'?>">WP-JSON</a>
 
-<?php get_footer(); ?>
+  </body>
+</html>
